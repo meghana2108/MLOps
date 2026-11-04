@@ -215,4 +215,12 @@ If the model file is missing, the client receives:
 { "detail": "Model file not found. Run train.py first." }
 ```
 
+### Screenshots:
+
+<img width="1497" height="759" alt="image" src="https://github.com/user-attachments/assets/e87fbb8f-c97a-4077-b5f4-70ce51312c3d" />
+
+<img width="1163" height="775" alt="image" src="https://github.com/user-attachments/assets/76369af3-4945-4b54-8a8d-1f394f0d6cc3" />
+
+
+
 For more, see the [FastAPI error handling docs](https://fastapi.tiangolo.com/tutorial/handling-errors/).
