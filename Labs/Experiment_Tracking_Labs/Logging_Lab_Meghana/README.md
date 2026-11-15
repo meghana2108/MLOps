@@ -5,7 +5,7 @@ A walkthrough of Python's built-in `logging` library, based on the course's `Log
 ## Files
 
 - `Logging_Lab_Meghana.ipynb` — the completed notebook
-- `logs/` — log files written when the notebook runs (`app.log`, `my_module.log`, rotating logs, and one log per training run)
+- Log files are written to a `logs/` folder when the notebook runs. That folder isn't committed (the course repo's `.gitignore` excludes `logs/`), but the notebook outputs show their contents.
 
 ## What the notebook covers
 
