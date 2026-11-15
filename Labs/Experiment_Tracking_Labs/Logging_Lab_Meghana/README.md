@@ -32,6 +32,10 @@ A walkthrough of Python's built-in `logging` library, based on the course's `Log
 - **Structured JSON logs** with a custom `Formatter`, including extra fields like `epoch` and `loss`, which is the format log platforms like ELK work best with.
 - **Logging an ML training run:** a small linear regression trained with gradient descent, logging progress at INFO, every epoch at DEBUG (file only), a WARNING whenever the loss increases, and an ERROR with traceback when training diverges. It's run once with a good learning rate (converges to w ≈ 3, b ≈ 2) and once with one that's too high (warnings, then stopped with an error at epoch 4).
 
+## Note on red output
+
+Python's logging writes to stderr, so Jupyter and GitHub show log messages in red. The tracebacks in sections 5, 8 and 11 are intentional: they demonstrate logging exceptions and a failed training run. No cells fail.
+
 ## How to run
 
 ```bash
